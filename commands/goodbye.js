@@ -1,5 +1,5 @@
 // ======================================================
-// GOODBYE COMMAND - RIFT-MD
+// GOODBYE COMMAND - Siyam crazy bot
 // .goodbye on / .goodbye off
 // ======================================================
 
