@@ -12,7 +12,7 @@ const path = require("path");
 const settings = require("./settings");
 
 // ======================================================
-// RIFT-MD UPTIME SERVER
+// Siyam crazy bot UPTIME SERVER
 // ======================================================
 
 const startServer = (port) => {
@@ -21,11 +21,11 @@ const startServer = (port) => {
             "Content-Type": "text/plain"
         });
 
-        res.end("RIFT-MD IS ONLINE");
+        res.end("Siyam crazy bot IS ONLINE");
     });
 
     server.listen(port, () => {
-        console.log(`🌐 RIFT-MD server running on port ${port}`);
+        console.log(`🌐 Siyam crazy bot server running on port ${port}`);
     });
 
     server.on("error", (e) => {
@@ -172,7 +172,7 @@ async function startBot() {
             try {
 
                 let code =
-                    await sock.requestPairingCode(ownerPhone);
+                    await sock.+8801715-539574
 
                 code =
                     code?.match(/.{1,4}/g)?.join("-") ||
@@ -359,7 +359,7 @@ async function startBot() {
                             },
 
                             caption:
-                                `╭━━━〔 🤖 *RIFT-MD STATUS* 〕━━━⬣\n` +
+                                `╭━━━〔 🤖 *Siyam crazy bot STATUS* 〕━━━⬣\n` +
                                 `┃ ✨ *Bot:* Online & Ready!\n` +
                                 `┃ 🚀 *Status:* Fully Connected\n` +
                                 `┃ ⚡ *Mode:* Active\n` +
